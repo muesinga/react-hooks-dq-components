@@ -1,4 +1,5 @@
 import React from "react";
+// import GenrePicker from "./GenrePicker"
 
 function TopMenu() {
   return (
@@ -9,6 +10,7 @@ function TopMenu() {
         </span>
         <span className="profile-menu">username</span>
       </button>
+      {/* < GenrePicker /> */}
     </nav>
   );
 }
